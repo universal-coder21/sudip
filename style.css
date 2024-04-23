@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.choice{
+    height: 100px;
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#rock{
+    background-color: purple;
+
+}
+#paper{
+    background-color: yellow;
+
+}
+#cissor{
+    background-color: maroon;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 6px solid;
+}
+.msg-container{
+    height: 20vh;
+    width: 50%;
+    margin: auto;
+    background-color: yellow;
+    text-align: center;
+    line-height: 60px;
+    font-size: 33px;
+}
