@@ -20,7 +20,7 @@ const showWinner = (userWin) => {
 }
 const genCompChoice = () => {//generate rock,papaer,cissor by Computer
     const options = ["rock", "paper", "cissor"];
-    const arb = Math.floor(Math.random() * (3-0)+0;
+    const arb = Math.floor(Math.random() * (3-0))+0;
     return options[arb];
 
 }
